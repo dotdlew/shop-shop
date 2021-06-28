@@ -1,4 +1,5 @@
-import { createStoreHook } from "react-redux";
-import reducer from "./reducers";
+import { configureStore } from "@reduxjs/toolkit";
 
-export default createStoreHook(reducer);
+export default configureStore({
+  reducer: {},
+});
